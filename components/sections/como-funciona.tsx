@@ -4,19 +4,19 @@ import { WhatsAppButton } from "@/components/whatsapp-button";
 const passos = [
   {
     title: "Você fala com a gente",
-    text: "Manda uma mensagem no WhatsApp e conta sobre o seu processo. É gratuito e sem compromisso.",
+    text: "Manda uma mensagem no WhatsApp e conta sobre o seu processo.",
   },
   {
-    title: "Analisamos o seu processo",
-    text: "Nossa equipe verifica as informações e avalia se a operação é viável para o seu caso.",
+    title: "Análise do processo",
+    text: "O jurídico analisa o processo, com compliance e crédito. Nem todo caso é aprovado.",
   },
   {
-    title: "Você recebe a proposta",
-    text: "Valor, prazo e condições explicados em português claro. Você só assina se fizer sentido para você.",
+    title: "Proposta por escrito",
+    text: "Valor, prazo, forma de pagamento e Custo Efetivo Total, por escrito.",
   },
   {
-    title: "O crédito cai na sua conta",
-    text: "Com a CCB assinada, o dinheiro é liberado pela instituição financeira parceira.",
+    title: "Assinatura e liberação",
+    text: "Com a CCB assinada, a UY3 libera o valor na sua conta.",
   },
 ];
 
@@ -25,14 +25,14 @@ export function ComoFunciona() {
     <Section tone="white" id="como-funciona">
       <SectionHeading
         eyebrow="Como funciona"
-        title="Quatro passos, do primeiro contato ao dinheiro na conta"
+        title="Quatro passos, do primeiro contato ao crédito na conta"
       />
 
       <ol className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {passos.map(({ title, text }, index) => (
           <li
             key={title}
-            className="relative rounded-2xl border border-line bg-white p-7"
+            className="relative rounded-3xl border border-line bg-white p-8"
           >
             <span
               aria-hidden

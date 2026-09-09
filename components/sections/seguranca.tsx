@@ -1,4 +1,9 @@
-import { Building2, FileSignature, Landmark, TriangleAlert } from "lucide-react";
+import {
+  Building2,
+  FileSignature,
+  Landmark,
+  TriangleAlert,
+} from "lucide-react";
 import { Section, SectionHeading } from "@/components/ui/section";
 import { site } from "@/lib/site";
 
@@ -7,19 +12,19 @@ const cadeia = [
     icon: Building2,
     label: "Quem atende você",
     name: site.legalName,
-    text: `Correspondente bancário, nos termos da ${site.regulation}. Não somos uma instituição financeira, e fazemos questão de dizer isso.`,
+    text: `Correspondente bancário, nos termos da ${site.regulation}. Não somos uma instituição financeira.`,
   },
   {
     icon: FileSignature,
     label: "O contrato",
     name: "CCB",
-    text: "A operação é formalizada por uma Cédula de Crédito Bancário, com todas as condições por escrito antes de qualquer assinatura.",
+    text: "Cédula de Crédito Bancário, com todas as condições por escrito, incluindo o Custo Efetivo Total, antes da assinatura.",
   },
   {
     icon: Landmark,
     label: "Quem libera o crédito",
     name: site.issuer,
-    text: "Instituição financeira autorizada e fiscalizada pelo Banco Central do Brasil. É ela que emite a CCB e libera o dinheiro.",
+    text: "Instituição financeira autorizada pelo Banco Central do Brasil. É ela que emite a CCB e libera o valor.",
   },
 ];
 
@@ -30,7 +35,7 @@ export function Seguranca() {
         tone="dark"
         eyebrow="Segurança e regulação"
         title="Transparência é parte do produto"
-        description="Sabemos que quem tem um processo na Justiça vira alvo de golpe. Por isso deixamos toda a estrutura da operação à vista, do começo ao fim."
+        description="Sabemos que quem tem um processo na Justiça vira alvo de golpe. Por isso deixamos toda a estrutura da operação à vista."
       />
 
       <ol className="mt-14 grid gap-6 md:grid-cols-3">
@@ -51,12 +56,12 @@ export function Seguranca() {
         ))}
       </ol>
 
-      <p className="mx-auto mt-10 flex max-w-3xl flex-col items-center justify-center gap-3 rounded-2xl bg-mint/15 p-7 text-center text-lg leading-relaxed font-bold text-balance text-white sm:flex-row">
+      <p className="mx-auto mt-12 flex max-w-3xl flex-col items-center justify-center gap-3 rounded-3xl bg-mint/15 p-8 text-center text-lg leading-relaxed font-bold text-balance text-white sm:flex-row">
         <TriangleAlert className="size-7 shrink-0 text-mint" aria-hidden />
         {/* Largura limitada para o texto centralizado não se afastar do ícone. */}
         <span className="max-w-xl">
-          A D20 Cred nunca pede depósito, taxa antecipada ou qualquer pagamento
-          para liberar crédito. Se pedirem, não é a gente.
+          A D20 Cred nunca pede pagamento antes de liberar o crédito, nem a sua
+          senha, acesso gov.br ou código por SMS. Se pedirem, é golpe.
         </span>
       </p>
     </Section>

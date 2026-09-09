@@ -12,7 +12,7 @@ export function ParaQuem() {
             align="left"
             eyebrow="Para quem é"
             title="Feito para quem tem um direito, mas ainda não tem o dinheiro"
-            description="A Justiça pode levar anos para pagar o que já é seu por direito. O Legal Equity usa seu processo como garantia e libera um crédito agora, sem esperar o fim da ação."
+            description="Entre a ação e o dinheiro na conta costumam passar anos. O Legal Equity usa o seu processo como garantia para destravar um crédito agora, sem esperar a ação terminar."
           />
 
           <div className="mt-8">
@@ -25,11 +25,11 @@ export function ParaQuem() {
         </div>
 
         <Image
-          src="/images/D20_logo_verde.png"
+          src="/images/D20_elemento_site.png"
           alt=""
-          width={1503}
-          height={601}
-          className="mx-auto w-full max-w-[15rem] sm:max-w-[22rem]"
+          width={2160}
+          height={2700}
+          className="mr-auto ml-auto w-full max-w-[20rem] sm:max-w-[22rem] lg:mr-0"
         />
       </div>
     </Section>

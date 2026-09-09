@@ -14,11 +14,11 @@ export function CtaFinal() {
           />
           <div className="relative">
             <h2 className="mx-auto max-w-2xl text-3xl leading-tight font-extrabold tracking-tight text-balance text-white sm:text-4xl">
-              Descubra quanto o seu processo pode liberar
+              Veja qual crédito o seu processo pode garantir
             </h2>
             <p className="mx-auto mt-5 max-w-xl text-lg leading-relaxed text-pretty text-white/80">
-              Fale com um especialista da D20 Cred. A conversa é gratuita, sem
-              compromisso, e você entende tudo antes de decidir qualquer coisa.
+              Fale com um especialista da D20 Cred. A conversa é gratuita e sem
+              compromisso, e você vê todas as condições antes de decidir.
             </p>
             <div className="mt-10">
               <WhatsAppButton variant="onDark" />

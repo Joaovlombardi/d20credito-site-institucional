@@ -13,7 +13,7 @@ const modalidades = [
     icon: Car,
     name: "Car Equity",
     garantia: "O veículo",
-    text: "Mesma lógica: o carro fica como garantia e você recebe o crédito.",
+    text: "Mesma lógica: o carro fica como garantia da operação de crédito.",
   },
   {
     icon: Gavel,
@@ -30,7 +30,7 @@ export function OQueE() {
       <SectionHeading
         eyebrow="O que é Legal Equity"
         title="Você já conhece esse modelo. Só muda a garantia."
-        description="Crédito com garantia existe há décadas e é uma das formas mais comuns de conseguir juros melhores. O Legal Equity segue exatamente a mesma lógica."
+        description="Crédito com garantia existe há décadas. Com uma garantia real, a condição do crédito é diferente da de um empréstimo sem garantia."
       />
 
       <ul className="mt-14 grid gap-6 md:grid-cols-3">
