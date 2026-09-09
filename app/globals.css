@@ -1,18 +1,51 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* Cores oficiais da marca (BRIEFING.md) */
+  --color-mint: #5dcaa5;
+  --color-brand: #1d9e75;
+  --color-deep: #0f6e56;
+  --color-deeper: #0c5b47;
+
+  /* Neutros */
+  --color-ink: #10221c;
+  --color-muted: #737373;
+  --color-surface: #f5faf8;
+  --color-line: #e3ece9;
+
+  --font-sans: var(--font-manrope), system-ui, -apple-system, sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+html {
+  scroll-behavior: smooth;
+  /* Compensa o header sticky ao navegar por âncora. */
+  scroll-padding-top: 5.5rem;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-sans), system-ui, sans-serif;
+  background: #ffffff;
+  color: var(--color-ink);
+  font-size: 17px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Foco visível e consistente em toda a navegação por teclado. */
+:focus-visible {
+  outline: 2px solid var(--color-deep);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* FAQ: o "+" vira "×" quando a pergunta abre.
+   Escrito em CSS puro porque a variante `group-open:` do Tailwind 4
+   não gera regra para o atributo [open] de <details>. */
+.faq-item[open] .faq-toggle {
+  transform: rotate(45deg);
 }
