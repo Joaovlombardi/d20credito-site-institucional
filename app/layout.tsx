@@ -17,14 +17,14 @@ export const metadata: Metadata = {
     template: `%s | ${site.name}`,
   },
   description:
-    "Receba crédito usando seu processo trabalhista como garantia. Você continua dono do processo e mantém o seu advogado. Conheça o Legal Equity.",
+    "Receba crédito usando seu processo judicial como garantia. Você continua dono do processo e mantém o seu advogado. Conheça o Legal Equity.",
   openGraph: {
     type: "website",
     locale: "pt_BR",
     siteName: site.name,
     title: "D20 Cred | Crédito com garantia de processo judicial",
     description:
-      "Receba crédito usando seu processo trabalhista como garantia. Você continua dono do processo e mantém o seu advogado.",
+      "Receba crédito usando seu processo judicial como garantia. Você continua dono do processo e mantém o seu advogado.",
   },
 };
 

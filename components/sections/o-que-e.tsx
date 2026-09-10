@@ -19,7 +19,7 @@ const modalidades = [
     icon: Gavel,
     name: "Legal Equity",
     garantia: "O processo judicial",
-    text: "O produto da D20 Cred. A garantia é o seu processo trabalhista em andamento.",
+    text: "O produto da D20 Cred. A garantia é o seu processo judicial em andamento.",
     destaque: true,
   },
 ];

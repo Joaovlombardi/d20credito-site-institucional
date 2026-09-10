@@ -21,7 +21,7 @@ const perguntas = [
   },
   {
     q: "Que tipo de processo pode ser usado?",
-    a: "Processos trabalhistas em andamento. Cada caso passa por análise jurídica, então fale com a nossa equipe e conte a sua situação.",
+    a: "Processos judiciais em andamento, com foco em ações trabalhistas. Cada caso passa por análise jurídica, então fale com a nossa equipe e conte a sua situação.",
   },
   {
     q: "Qual é o valor e o prazo?",

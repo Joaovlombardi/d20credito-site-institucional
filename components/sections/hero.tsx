@@ -20,8 +20,8 @@ export function Hero() {
           </p>
 
           <h1 className="mt-7 max-w-xl text-4xl leading-[1.1] font-extrabold tracking-tight text-balance text-white sm:text-5xl">
-            Seu processo judicial é a garantia.{" "}
-            <span className="text-mint">O crédito é agora.</span>
+            <span className="text-mint">O crédito é agora.</span> A garantia é
+            o seu processo judicial.
           </h1>
 
           <p className="mt-7 max-w-lg text-lg leading-relaxed text-pretty text-white/80">
@@ -49,17 +49,17 @@ export function Hero() {
           {/* O PNG tem ~20% de margem transparente de cada lado, entao ele
              transborda a coluna para as pessoas ganharem tamanho sem serem
              cortadas. O "D" acompanha o mesmo wrapper para escalar junto. */}
-          <div className="relative -ml-[12%] w-[124%] lg:-ml-[20%] lg:w-[140%]">
+          <div className="relative -ml-[12%] w-[124%] lg:-ml-[25%] lg:w-[150%]">
             <Image
               src="/images/D20_logo_verde_D.png"
               alt=""
               width={1254}
               height={1254}
               aria-hidden
-              className="absolute bottom-[4%] left-1/2 w-[76%] -translate-x-1/2 opacity-50"
+              className="absolute bottom-[4%] left-1/2 w-[76%] -translate-x-1/2 opacity-50 lg:w-[71%]"
             />
             <Image
-              src="/images/D20_3_trabalhadores.png"
+              src="/images/D20_imagem_trabalhadores.png"
               alt="Profissionais de diferentes áreas"
               width={4096}
               height={2720}

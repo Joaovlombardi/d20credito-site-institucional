@@ -15,7 +15,7 @@ aprofundamento.
 
 Título da lista: **Quem pode contratar**
 
-- Processo trabalhista em andamento
+- Processo judicial em andamento, com foco em ações trabalhistas
 - Idade entre 18 e 74 anos
 - Uma operação ativa por CPF
 - Conta bancária no seu próprio nome para receber

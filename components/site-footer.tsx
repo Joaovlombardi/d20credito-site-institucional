@@ -108,29 +108,19 @@ export function SiteFooter() {
             <strong className="font-semibold text-white/85">
               {site.legalName}
             </strong>
-            . CNPJ {site.cnpj}. {site.address}
+            , CNPJ {site.cnpj}, {site.address}. Não somos uma instituição
+            financeira: atuamos como correspondente bancário, nos termos da{" "}
+            {site.regulation}. A Cédula de Crédito Bancário (CCB) é emitida pela{" "}
+            {site.issuer}, autorizada pelo Banco Central do Brasil. Crédito de
+            até R$ 50.000, com prazo de 6 a 60 meses, sujeito a análise e
+            aprovação, com taxas e Custo Efetivo Total (CET) apresentados antes
+            da assinatura.
           </p>
           <p>
-            A {site.legalName} não é uma instituição financeira. Atuamos como
-            correspondente bancário, nos termos da {site.regulation}. As
-            operações de crédito são formalizadas por meio de Cédula de Crédito
-            Bancário (CCB) emitida pela {site.issuer}, instituição financeira
-            autorizada pelo Banco Central do Brasil. A concessão do crédito está
-            sujeita a análise e aprovação. Crédito de até R$ 50.000, com prazo
-            de 6 a 60 meses. Valores, prazos e taxas variam conforme o perfil do
-            cliente e são apresentados integralmente, com o Custo Efetivo Total
-            (CET), antes da assinatura do contrato.
-          </p>
-          <p>
-            A {site.name} nunca solicita depósito, Pix, transferência ou
-            qualquer pagamento antes de liberar o crédito, e nunca pede senha,
-            acesso gov.br ou código recebido por SMS. Nossos canais oficiais são
-            o site d20credito.com.br, o WhatsApp {site.whatsappLabel}, o
-            telefone {site.phoneLabel} e o e-mail {site.email}.
-          </p>
-          <p>
-            Tratamos dados pessoais conforme a Lei nº 13.709/2018. Para exercer
-            seus direitos como titular, escreva para {site.email}.
+            Nunca pedimos pagamento antes de liberar o crédito, nem senha,
+            acesso gov.br ou código recebido por SMS. Fale com a gente apenas
+            pelos canais oficiais listados acima. Dados pessoais tratados
+            conforme a Lei nº 13.709/2018.
           </p>
           <p className="pt-2">
             © {new Date().getFullYear()} {site.name}. Todos os direitos
