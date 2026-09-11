@@ -1,0 +1,20 @@
+
+> d20credito-site-institucional@0.1.0 dev
+> next dev
+
+⚠ Port 3000 is in use by process 12912, using available port 3001 instead.
+▲ Next.js 16.3.4 (Turbopack)
+- Local:         http://localhost:3001
+- Network:       http://192.168.15.10:3001
+✓ Ready in 647ms
+✓ Running next.config.ts took 41ms
+⨯ Another next dev server is already running.
+
+- Local:        http://localhost:3000
+- PID:          12912
+- Dir:          C:\Users\JoãoVitorLombardiHay\Desktop\d20credito-site-institucional
+- Log:          .next\dev\logs\next-development.log
+
+You can access the existing server at http://localhost:3000,
+or run taskkill /PID 12912 /F to stop it and start a new one.
+[?25h
