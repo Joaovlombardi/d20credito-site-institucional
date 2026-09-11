@@ -30,7 +30,14 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="pt-BR" className={`${manrope.variable} h-full antialiased`}>
+    <html
+      lang="pt-BR"
+      className={`${manrope.variable} h-full antialiased`}
+      // O CSS usa scroll-behavior: smooth. Sem este atributo o Next 16 nao
+      // desliga a rolagem suave na troca de rota, a animacao e cancelada no
+      // meio e a pagina nova abre na posicao da anterior.
+      data-scroll-behavior="smooth"
+    >
       <body className="flex min-h-full flex-col">
         <SiteHeader />
         <main className="flex-1">{children}</main>

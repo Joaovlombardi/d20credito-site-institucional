@@ -108,24 +108,31 @@ export function SiteFooter() {
             <strong className="font-semibold text-white/85">
               {site.legalName}
             </strong>
-            , CNPJ {site.cnpj}, {site.address}. Não somos uma instituição
+            , CNPJ {site.cnpj}. {site.address}. Não somos uma instituição
             financeira: atuamos como correspondente bancário, nos termos da{" "}
             {site.regulation}. A Cédula de Crédito Bancário (CCB) é emitida pela{" "}
-            {site.issuer}, autorizada pelo Banco Central do Brasil. Crédito de
-            até R$ 50.000, com prazo de 6 a 60 meses, sujeito a análise e
-            aprovação, com taxas e Custo Efetivo Total (CET) apresentados antes
-            da assinatura.
+            {site.issuer}, autorizada pelo Banco Central do Brasil. Toda operação
+            está sujeita a análise e aprovação, com taxas e Custo Efetivo Total
+            (CET) apresentados antes da assinatura.
           </p>
           <p>
             Nunca pedimos pagamento antes de liberar o crédito, nem senha,
-            acesso gov.br ou código recebido por SMS. Fale com a gente apenas
-            pelos canais oficiais listados acima. Dados pessoais tratados
-            conforme a Lei nº 13.709/2018.
+            acesso gov.br ou código recebido por SMS.
           </p>
-          <p className="pt-2">
-            © {new Date().getFullYear()} {site.name}. Todos os direitos
-            reservados.
-          </p>
+          <div className="flex flex-col gap-4 pt-2 sm:flex-row sm:items-center sm:justify-between">
+            <p>
+              © {new Date().getFullYear()} {site.name}
+            </p>
+            <Image
+              src="/images/logo_UY3.png"
+              alt="UY3 Sociedade de Crédito Direto"
+              width={1536}
+              height={1024}
+              // self-start impede o flex-col do mobile de esticar a imagem
+              // na largura da coluna e distorcer a logo.
+              className="h-12 w-auto self-start sm:self-center"
+            />
+          </div>
         </div>
       </div>
     </footer>

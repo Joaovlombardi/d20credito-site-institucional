@@ -1,6 +1,5 @@
 import { Plus } from "lucide-react";
 import { Section, SectionHeading } from "@/components/ui/section";
-import { site } from "@/lib/site";
 
 const perguntas = [
   {
@@ -13,7 +12,7 @@ const perguntas = [
   },
   {
     q: "A D20 Cred é um banco?",
-    a: `Não. A ${site.legalName} é correspondente bancário. Quem emite a CCB e libera o crédito é a UY3, instituição financeira autorizada pelo Banco Central.`,
+    a: `Não. A D20 Cred é correspondente bancário. Quem emite a CCB e libera o crédito é a UY3, instituição financeira autorizada pelo Banco Central.`,
   },
   {
     q: "Preciso pagar alguma coisa para simular?",
@@ -21,7 +20,7 @@ const perguntas = [
   },
   {
     q: "Que tipo de processo pode ser usado?",
-    a: "Processos judiciais em andamento, com foco em ações trabalhistas. Cada caso passa por análise jurídica, então fale com a nossa equipe e conte a sua situação.",
+    a: "Processos judiciais em andamento, principalmente trabalhistas. Cada caso passa por análise jurídica, então fale com a nossa equipe e conte a sua situação.",
   },
   {
     q: "Qual é o valor e o prazo?",

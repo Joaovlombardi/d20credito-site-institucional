@@ -14,8 +14,7 @@ export const site = {
   url: "https://www.d20credito.com.br",
   legalName: "D20 Capital Ltda",
   cnpj: "64.776.682/0001-01",
-  address:
-    "Av. Brigadeiro Faria Lima, 1713, conjunto 82, Jardim Paulistano, São Paulo, SP",
+  address: "Av. Brigadeiro Faria Lima, 1713, São Paulo, SP",
   email: "contato@d20credito.com.br",
   phoneLabel: "(11) 5282-4130",
   instagram: "@d20credito",

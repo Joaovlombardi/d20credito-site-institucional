@@ -56,10 +56,11 @@ export function Seguranca() {
         ))}
       </ol>
 
-      <p className="mx-auto mt-12 flex max-w-3xl flex-col items-center justify-center gap-3 rounded-3xl bg-mint/15 p-8 text-center text-lg leading-relaxed font-bold text-balance text-white sm:flex-row">
-        <TriangleAlert className="size-7 shrink-0 text-mint" aria-hidden />
-        {/* Largura limitada para o texto centralizado não se afastar do ícone. */}
-        <span className="max-w-xl">
+      {/* Caixa justa: a largura maxima cobre exatamente icone + texto +
+          padding, sem sobra lateral. */}
+      <p className="mx-auto mt-12 flex max-w-2xl items-start gap-4 rounded-2xl bg-mint/15 px-7 py-5 leading-snug font-bold text-white sm:items-center">
+        <TriangleAlert className="mt-0.5 size-6 shrink-0 text-mint sm:mt-0" aria-hidden />
+        <span>
           A D20 Cred nunca pede pagamento antes de liberar o crédito, nem a sua
           senha, acesso gov.br ou código por SMS. Se pedirem, é golpe.
         </span>
